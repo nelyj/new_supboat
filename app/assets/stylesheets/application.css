@@ -45,3 +45,42 @@ body{
   margin-top: 450px;
   margin-left: 160px;
 }
+
+#america-norte{
+  position: absolute;
+  border:1px solid blue;
+  width: 320px;
+  height: 250px;
+  margin-top:200px;
+}
+
+#africa{
+  position: absolute;
+  border: 1px solid red;
+  width: 210px;
+  height: 160px;
+  margin-top: 435px;
+  margin-left:325px;
+}
+
+#oceania{
+  position: absolute;
+  border: 1px solid orange;
+  width: 160px;
+  height: 165px;
+  margin-top: 520px;
+  margin-left: 780px;
+}
+
+#europa{
+  position: absolute;
+  border:1px solid white;
+  width:300px;
+  height: 70px;
+  margin-top:360px;
+  margin-left: 470px;
+}
+
+#asia{
+  position: absolute;
+}
