@@ -14,5 +14,34 @@
  */
 
 body{
-  padding-top: 100px;
+  background-color: #009EE0 !important;
+}
+
+#map{
+  margin-top: -15px;
+  background-image:url(map.png);
+  width:960px;
+  height: 768px;
+}
+
+#latinamerica{
+  width: 120px;
+  height: 210px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 480px;
+  margin-left:160px;
+}
+
+#latinamerica:hover{
+  cursor: pointer;
+}
+
+#america-central{
+  width: 120px;
+  height: 30px;
+  border:1px solid green;
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 160px;
 }
