@@ -27,7 +27,6 @@ body{
 #latinamerica{
   width: 120px;
   height: 210px;
-  border: 1px solid black;
   position: absolute;
   margin-top: 480px;
   margin-left:160px;
@@ -35,52 +34,96 @@ body{
 
 #latinamerica:hover{
   cursor: pointer;
+  background-image: url(maphover.png);
+  width: 120px;
+  height: 207px;
+  background-position: -84px -491px;
 }
 
 #america-central{
   width: 120px;
   height: 30px;
-  border:1px solid green;
   position: absolute;
   margin-top: 450px;
   margin-left: 160px;
+  z-index:2;
+}
+
+#america-central:hover{
+  cursor: pointer;
+  background-image: url(maphover.png);
+  width: 87px;
+  height: 30px;
+  background-position: -75px -372px;
 }
 
 #america-norte{
   position: absolute;
-  border:1px solid blue;
-  width: 320px;
+  width: 357px;
   height: 250px;
-  margin-top:200px;
+  margin-top:215px;
+}
+
+#america-norte:hover{
+  background-image: url(maphover.png);
+  background-position: -14px -52px;
+  cursor: pointer;
 }
 
 #africa{
   position: absolute;
-  border: 1px solid red;
-  width: 210px;
-  height: 160px;
-  margin-top: 435px;
-  margin-left:325px;
+  width: 215px;
+  height: 202px;
+  margin-top: 395px;
+  margin-left: 325px;
+}
+
+#africa:hover{
+  background-position: -261px -327px;
+  background-image: url(maphover.png);
+  cursor:pointer;
 }
 
 #oceania{
   position: absolute;
-  border: 1px solid orange;
   width: 160px;
   height: 165px;
-  margin-top: 520px;
   margin-left: 780px;
+  margin-top: 520px;
+  
+}
+
+#oceania:hover{
+  background-position: 265px -242px;
+  background-image: url(maphover.png);
+  cursor: pointer;
 }
 
 #europa{
   position: absolute;
-  border:1px solid white;
-  width:300px;
-  height: 70px;
-  margin-top:360px;
-  margin-left: 470px;
+  width:360px;
+  height: 269px;
+  margin-top:280px;
+  margin-left: 462px;
+  
+}
+
+#europa:hover{
+  background-position: 432px 318px;
+  background-image: url(maphover.png);
+  cursor: pointer;
 }
 
 #asia{
   position: absolute;
+  height: 130px;
+  width: 450px;
+  margin-top: 230px;
+  margin-left:400px;
+}
+
+#asia:hover{
+  background-position: 498px -60px;
+  cursor: pointer;
+  background-image: url(maphover.png);
 }

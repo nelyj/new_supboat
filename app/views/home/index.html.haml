@@ -6,6 +6,7 @@
     #africa
     #oceania
     #europa
+    #asia
 
 %ul
   - @response.each do |event|
@@ -37,5 +38,4 @@
               =event["venue"]["address_1"]
         .span3 
           =link_to "More information", event["event_url"], :class => "btn btn-success"
-
 
