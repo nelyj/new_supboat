@@ -127,3 +127,7 @@ body{
   cursor: pointer;
   background-image: url(maphover.png);
 }
+
+.modal.fade.in{
+  top: 5%;
+}

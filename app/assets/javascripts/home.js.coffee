@@ -3,4 +3,22 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 $ ->
   $('#latinamerica').click ->
-    $('#myModal').modal()
+    $('#modal-latinoamerica').modal()
+
+  $('#america-central').click ->
+    $('#modal-latinoamerica').modal()
+
+  $('#america-norte').click ->
+    $('#modal-latinoamerica').modal()
+
+  $('#africa').click ->
+    $('#modal-latinoamerica').modal()
+
+  $('#oceania').click ->
+    $('#modal-latinoamerica').modal()
+
+  $('#europa').click ->
+    $('#modal-latinoamerica').modal()
+
+  $('#asia').click ->
+    $('#modal-latinoamerica').modal()
