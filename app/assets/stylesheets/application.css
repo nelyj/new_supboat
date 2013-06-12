@@ -79,7 +79,7 @@ body{
 }
 
 #africa:hover{
-  background-position: -261px -327px;
+  background-position: -234px -310px;
   background-image: url(maphover.png);
   cursor:pointer;
 }
@@ -94,7 +94,7 @@ body{
 }
 
 #oceania:hover{
-  background-position: 265px -242px;
+  background-position: 198px -249px;
   background-image: url(maphover.png);
   cursor: pointer;
 }
@@ -109,21 +109,21 @@ body{
 }
 
 #europa:hover{
-  background-position: 432px 318px;
+  background-position: 433px 317px;
   background-image: url(maphover.png);
   cursor: pointer;
 }
 
 #asia{
   position: absolute;
-  height: 130px;
-  width: 450px;
-  margin-top: 230px;
-  margin-left:400px;
+  height: 159px;
+  width: 488px;
+  margin-top: 234px;
+  margin-left:359px;
 }
 
 #asia:hover{
-  background-position: 498px -60px;
+  background-position: 553px -71px;
   cursor: pointer;
   background-image: url(maphover.png);
 }
