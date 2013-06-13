@@ -6,19 +6,19 @@ $ ->
     $('#modal-latinoamerica').modal()
 
   $('#america-central').click ->
-    $('#modal-latinoamerica').modal()
+    $('#modal-america-central').modal()
 
   $('#america-norte').click ->
-    $('#modal-latinoamerica').modal()
+    $('#modal-america-norte').modal()
 
   $('#africa').click ->
-    $('#modal-latinoamerica').modal()
+    $('#modal-africa').modal()
 
   $('#oceania').click ->
-    $('#modal-latinoamerica').modal()
+    $('#modal-oceania').modal()
 
   $('#europa').click ->
-    $('#modal-latinoamerica').modal()
+    $('#modal-europa').modal()
 
   $('#asia').click ->
-    $('#modal-latinoamerica').modal()
+    $('#modal-asia').modal()
