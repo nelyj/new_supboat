@@ -23,4 +23,6 @@ end
 
 gem 'httparty'
 gem 'jquery-rails'
+gem 'countries'
+gem 'country_select'
 
