@@ -56,34 +56,3 @@
     #europa
     #asia
 
-%ul
-  - @response.each do |event|
-    %li
-      .row
-        .span12
-          =event["id"] 
-        .span12
-          = Time.at(event["time"]/1000).strftime("%a %d %B %H:%M")
-        .span12
-          %h3
-            = event['name']
-        .span3
-          %h4 
-            Attendes (
-            =event['yes_rsvp_count']
-            ="/"
-            =event['rsvp_limit']
-            )
-        .span5
-          .row
-            .span4
-              =event["venue"]["name"]
-            .span4
-              =event["venue"]["city"]
-            .span4
-              =event["venue"]["country"]
-            .span4
-              =event["venue"]["address_1"]
-        .span3 
-          =link_to "More information", event["event_url"], :class => "btn btn-success"
-
