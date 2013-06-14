@@ -9,5 +9,7 @@ class HomeController < ApplicationController
       country["venue"]["country"] = u.name
     end
 
+    @norte =HTTParty.get('http://api.meetup.com/2/events?status=upcoming&event_id=121039142&order=time&limited_events=False&group_urlname=startupchile&desc=false&offset=0&format=json&page=20&fields=&sig_id=12911163&sig=a92dca4ee46971de8b1016dcaf81d79b3b893ae4')
+
   end
 end
