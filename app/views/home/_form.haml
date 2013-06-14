@@ -6,18 +6,24 @@
     .row
       .span5
         =image_tag "America-del-sur.jpg", :class => "imagen-latam"
-      .span5
+      .span5.right
+        .page-header
+          %h2 Upcoming events
         %ul
           - @latam.each do |event|
             %li
               .row
-                .span12
+                .span6
                   %h3
-                    = event["venue"]["city"]
-                    = event['venue']['country'] 
-                .span12
-                  %h4
-                    = event['name']
+                    =event["venue"]["city"]
+                    =","
+                    =event['venue']['country'] 
+                .span6
+                  .span3
+                    = Time.at(event["time"]/1000).strftime("%a %d %B %H:%M")
+                  .span3
+                  =link_to "Read More", event["event_url"], :class => "btn btn-success"
+
               %br
 
 
