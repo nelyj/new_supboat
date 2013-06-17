@@ -15,6 +15,9 @@ class HomeController < ApplicationController
     @asia = HTTParty.get('http://api.meetup.com/2/events?status=upcoming&event_id=122051032&order=time&limited_events=False&desc=false&offset=0&format=json&page=20&fields=&sig_id=12911163&sig=e4c810fe20ab3fb9994e877b142b1b74fab052f7')
     @asia = @asia["results"]
 
+    @norte = HTTParty.get('http://api.meetup.com/2/events?status=upcoming&event_id=122253642%2C122051032&order=time&limited_events=False&desc=false&offset=0&format=json&page=20&fields=&sig_id=12911163&sig=d5f1ef2d2c52ec7594977b987310f47f16ba35de')
+    @norte = @norte["results"]
+
 
 
   end

@@ -62,7 +62,22 @@
         .page-header
           %h2 Upcoming events
         %ul
-          %li
+          - @norte.each do |event|
+            %li
+              .row
+                .span6
+                  %h3
+                    =event["venue"]["city"]
+                    =","
+                    =event['venue']['country'] 
+                .span6
+                  .row
+                    .span3
+                      %p
+                        = Time.at(event["time"]/1000).strftime("%a %d %B %H:%M")
+                    .span3
+                      =link_to "Read More", event["event_url"], :class => "btn btn-success derecha", :target => "_blank"
+
 
 #modal-europa.modal.hide.fade{"aria-hidden" => "true", "aria-labelledby" => "myModalLabel", :role => "dialog", :tabindex => "-1"}
   .modal-header
